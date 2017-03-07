@@ -1,5 +1,5 @@
 # Marc Chamberlin Resume
-  chambeur.github.io
+  marc-chamberlin.com
 
 # Last Update
   March 2017
