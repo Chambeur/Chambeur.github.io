@@ -1,0 +1,8 @@
+I"n<p>#</p>
+
+<p>The Appysport platform aggregates multiple “macro-services” organised around multiple sports such as watersports, tennis (shutdown end 2019) and fitness. Shopify is used to host data, display the services (classes, lessons, rentals, etc) rendered with a custom Liquid template and handle the checkout process.</p>
+
+<p>An ETL built with Elixir served as bridge between the data provider Anybuddy and Shopify. It was designed to be fast, lightweight, fault-tolerant and mitigate Shopify API rate limits. Elixir pre-built scheduler served as an integrated CRON service.</p>
+
+<p>Bookings’ followup emails (confirmation to the customer/partner, cancelation, instructions, etc) was done with a Ruby-on-Rails application. A custom Domain Specific Language (DSL) was designed to simplify the configuration of automated emails and their integration with Sendgrid.</p>
+:ET
