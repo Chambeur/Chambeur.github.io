@@ -1,3 +1,5 @@
+destination: ./docs
 collections:
   - experiences
   - projects
+exclude: ["README.md"]
