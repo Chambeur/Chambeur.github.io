@@ -1,0 +1,160 @@
+---
+date: 2017-06-01
+legacy: true
+---
+<h3>
+  BookingSync - Senior Developer / Team Leader </br>
+  <small>Hong Kong - Jun 2017 to Sep 2019</small>
+</h3>
+
+<div class="row">
+  <div class="col-xs-2">
+    <img src="./img/bookingsync.png" alt="BookingSync Thumbnail" class="img-rounded img-responsive">
+  </div> <!-- col -->
+
+  <div class="col-xs-10">
+    <p>
+      BookingSync is a remote-based company with collaborators all around the world. It provides services to vacation rentals property managers through multiple in-house applications and external partner systems such as Airbnb, Booking.com and TripAdvisor. More than 20.000 rentals are managed in over 66 countries. More than 2.3 billion bookings were handled through Bookingsync.
+    </p>
+
+    <p>
+      As a Senior Developer, my role was to design more complex features and to oversee the work of other developers. I also had to keep applications under my scope up and running. Those applications had various business objectives:
+      <ul>
+        <li>Notification Center app that triggers emails sent to travelers</li>
+        <li>Owners portal app that facilitates communication between a property manager and the rental's owner</li>
+        <li>TripAdvisor Integration app to help property manager oversee which rentals to push TripAdvisor platform</li>
+        <li>Invoice app that generates invoices based on custom templates</li>
+        <li>Website Builder, that generates fully functional rental booking websites automatically plugged to BookingSync</li>
+      </ul>
+      The stack being similar among the applications, I initialized the standardization of their README to cover installation, setup, development process, testing, deployment, and monitoring.
+    </p>
+
+    <p>
+      As a Team Leader, my role was to facilitate the communication between with other teams and also to smoother the organization within the team (4 developers & 2 customer supports).
+    </p>
+
+    <p><a href="https://www.bookingsync.com">www.bookingsync.com</a></p>
+
+    <h4>
+      <span class="label label-primary">Web Development</span>
+      <span class="label label-primary">Web Administration</span>
+      <span class="label label-primary">Vacation Rental</span>
+    </h4>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<hr/>
+
+<h4>TripAdvisor Integration App</h4>
+
+<div class="row">
+  <div class="col-xs-8">
+    <h5>Description</h5>
+    <p>
+      This application helps any property manager of BookingSync to push to TripAdvisor platform all the availabilities of their rentals and the estimated price per day.
+      However, the final price paid by the traveler was sometimes different than the direct price computed by BookingSync because of delays between refreshes of rental prices and discounts related to the length of stay.
+    </p>
+
+    <p>
+      I worked closely with the TripAdvisor technical team to implement an API endpoint based on their specifications. This endpoint was later used by TripAdvisor to display on their website the live rate for a rental according to the length of stay and the number of guests. The estimated number of requests during a peak day was 7,500 and so far, this endpoint has respected the SLA defined by TripAdvisor:
+      <ul>
+        <li>maintain less than 500ms of median response time</li>
+        <li>maintain less than 1.5s of response time for 90% of requests</li>
+        <li>return a successful response for at least 99.9% of unique requests</li>
+      </ul>
+    </p>
+  </div> <!-- col -->
+
+  <div class="col-xs-4">
+    <h5>Stack</h5>
+
+    <dl>
+      <dt>Back-end</dt>
+      <span class="label label-primary">Ruby-on-Rails</span>
+      <span class="label label-primary">Postgresql</span>
+      <span class="label label-primary">Redis</span>
+      <span class="label label-primary">Sidekiq</span>
+
+      <dt>Testing</dt>
+      <span class="label label-success">TDD</span>
+      <span class="label label-success">RSpec</span>
+      <span class="label label-success">FactoryBot</span>
+      <span class="label label-success">CircleCI</span>
+
+      <dt>Third Party Application</dt>
+      <span class="label label-danger">TripAdvisor Private API</span>
+
+      <dt>Admin Tools</dt>
+      <span class="label label-info">Deis/Workflow</span>
+      <span class="label label-info">New Relic</span>
+      <span class="label label-info">Sentry</span>
+
+      <dt>Development Tools</dt>
+      <span class="label label-default">Jira</span>
+      <span class="label label-default">Git</span>
+      <span class="label label-default">Github</span>
+      <span class="label label-default">Sublime</span>
+    </dl>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<hr/>
+
+<h4>BookingSync Notification Center App</h4>
+
+<div class="row">
+  <div class="col-xs-8">
+    <h5>Description</h5>
+    <p>
+      The Notification app is critical in the vacation rental process as it handles all the emailing of check-in and check-out details, contracts, payment reminders and other information to the travelers. It relies heavily on background jobs and real-time constraints. Being the application I worked the most on, it was released 2 years before I started working on it. I covered all parts of the app, including:
+      <ul>
+        <li>Improve UX by reducing risks of typos (especially for email address errors)</li>
+        <li>Prevent emails from being sent twice by refactoring SQL queries</li>
+        <li>Implement soft-deletion feature for all DB records for data recovery and audit</li>
+        <li>Setup healthcheck that triggers alerts when delay sending notifications is too high</li>
+        <li>Implement a "retry later" feature when Mandrill's servers are down</li>
+        <li>Fix all warnings and stylecheck offenses</li>
+        <li>Add pagination to index pages and remove n+1 queries to reduce request time</li>
+      </ul>
+    </p>
+  </div> <!-- col -->
+
+  <div class="col-xs-4">
+    <h5>Stack</h5>
+    <dl>
+      <dt>Back-end</dt>
+      <span class="label label-primary">Ruby-on-Rails</span>
+      <span class="label label-primary">Postgresql</span>
+      <span class="label label-primary">Redis</span>
+      <span class="label label-primary">Sidekiq</span>
+
+      <dt>Front-end</dt>
+      <span class="label label-warning">Bootstrap</span>
+      <span class="label label-warning">HTML5 CSS3</span>
+      <span class="label label-warning">SASS</span>
+      <span class="label label-warning">Slim Templates</span>
+      <span class="label label-warning">Liquid Templates</span>
+
+      <dt>Testing</dt>
+      <span class="label label-success">TDD</span>
+      <span class="label label-success">RSpec</span>
+      <span class="label label-success">FactoryBot</span>
+      <span class="label label-success">CircleCI</span>
+
+      <dt>Third Party Application</dt>
+      <span class="label label-danger">Mandrill/Mailchimp</span>
+      <span class="label label-danger">Geocoder</span>
+
+      <dt>Admin Tools</dt>
+      <span class="label label-info">Deis/Workflow</span>
+      <span class="label label-info">New Relic</span>
+      <span class="label label-info">Sentry</span>
+
+      <dt>Development Tools</dt>
+      <span class="label label-default">Jira</span>
+      <span class="label label-default">Git</span>
+      <span class="label label-default">Github</span>
+      <span class="label label-default">Sublime</span>
+    </dl>
+  </div> <!-- col -->
+</div> <!-- row -->

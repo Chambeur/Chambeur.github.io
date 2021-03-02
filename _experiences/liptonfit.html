@@ -1,0 +1,99 @@
+---
+date: 2011-03-01
+legacy: true
+---
+<h3>
+  Lipton Fit - Software Engineer Consultant  </br>
+  <small>Paris - Mar 2011 to Jan 2013</small>
+</h3>
+
+<div class="row">
+  <div class="col-xs-2">
+    <img src="./img/liptonfit.jpg" alt="Lipton Fit Thumbnail" class="img-rounded img-responsive">
+  </div> <!-- col -->
+
+  <div class="col-xs-10">
+    <p>
+      In mission at Caceis Fund Administration as Software Engineer, as Lead Developer of the Financial Reporting Team (3 developers), I was in charge of the enhancement of new features of the business core software as IFRS7 risk calculation or third-party software StatPro integration. I designed financial reporting templates and populated them with stored procedures that fetched data in a data warehouse.
+    </p>
+
+    <h4>
+      <span class="label label-primary">Software Development</span>
+      <span class="label label-primary">Team development</span>
+      <span class="label label-primary">Banking Services</span>
+      <span class="label label-primary">Middleware Architecture</span>
+    </h4>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<hr/>
+
+<h4>IFRS7 Risk Calculation</h4>
+
+<div class="row">
+  <div class="col-xs-8">
+    <h5>Description</h5>
+    <p>
+      The IFRS7 notation is a value from 1(good) to 3(bad) that estimates the risk level of each asset of a financial portfolio (hedge fund). The value is weight by rules like for example the nationality of the fund or the type of asset. Each fund holder can choose the rules they want to apply.
+    </p>
+
+    <p>
+      The existing business core software had a Service Oriented Architecture so the feature was implemented as a web service and "plug" in the existing system. The service was triggered by a UI through an API. The UI also allowed the user to create and to weight rules to a portfolio. A specific algorithm was designed to reduce databases I/O and avoid unnecessary operations.
+    </p>
+  </div> <!-- col -->
+
+  <div class="col-xs-4">
+    <h5>Stack</h5>
+
+    <dl>
+      <dt>Back-end</dt>
+      <span class="label label-primary">Java J2EE</span>
+      <span class="label label-primary">Sybase</span>
+      <span class="label label-primary">Struts</span>
+      <span class="label label-primary">Hibernate</span>
+
+      <dt>Front-end</dt>
+      <span class="label label-warning">JSP</span>
+
+      <dt>Testing</dt>
+      <span class="label label-success">JUnit</span>
+
+      <dt>Development Tools</dt>
+      <span class="label label-default">Jirah</span>
+      <span class="label label-default">SVN</span>
+      <span class="label label-default">Eclipse</span>
+    </dl>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<hr/>
+
+<h4>Financial Reporting Generation</h4>
+
+<div class="row">
+  <div class="col-xs-8">
+    <h5>Description</h5>
+    <p>
+      A financial reporting is 2 pages of technical information about a financial portfolio. The project was to automate monthly reporting of specific portfolios with informations saved in a datawarehouse. I used the software Actuate to design the reporting template and populated it trough stocked procedure.
+    </p>
+
+    <p>
+      Actuate design module is built on Visual Basic language. It allowed me to create DRY design component for templates (such as headers, footers, curves, tables).
+    </p>
+  </div> <!-- col -->
+
+  <div class="col-xs-4">
+    <h5>Stack</h5>
+
+    <dl>
+      <dt>Database</dt>
+      <span class="label label-primary">Datawarehouse Model</span>
+      <span class="label label-primary">Sybase</span>
+      <span class="label label-primary">Transact SQL</span>
+
+      <dt>Design Tool</dt>
+      <span class="label label-warning">Actuate</span>
+      <span class="label label-warning">Visual Basic</span>
+    </dl>
+  </div> <!-- col -->
+</div> <!-- row -->
