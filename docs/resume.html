@@ -58,7 +58,7 @@
         
           
           <h3>
-            Decathlon - Tech Lead </br>
+            Decathlon - Tech Lead, Engineeting Manager </br>
             <small>Hong Kong - since Mar 2020 to present</small>
           </h3>
 
@@ -68,7 +68,13 @@
             </div> <!-- col -->
 
             <div class="col-xs-10">
-              <p>The Decathlon Hong Kong Tech Team oversees the Hong Kong specific parts of the e-commerce website, the core being implemented by a dedicated team in France.</p>
+              <p>The Decathlon Hong Kong Tech Team oversees the Hong Kong specific parts of the ecommerce website, the core being implemented by a separated team in France.</p>
+
+<p>Managing 6 developers as people manager.</p>
+
+<p>Introduced systematic testing, code reviews, code ownership, continuous delivery techniques and tools</p>
+
+<p>Defined the strategy and vision of the development team</p>
 
 
               <h4>
@@ -90,7 +96,9 @@
             <div class="row">
               <div class="col-xs-8">
                 <h5>Description</h5>
-                
+                <p>Decathlon Plus is a</p>
+
+<p><a href="https://plus.decathlon.com.hk">plus.decathlon.com.hk</a></p>
 
               </div> <!-- col -->
 
@@ -158,7 +166,11 @@
             <div class="row">
               <div class="col-xs-8">
                 <h5>Description</h5>
-                
+                <p>The Recommendation Gateway is designed to enable the Data Scientists to continuously apply their products recommendation models to the local ecommerce website. It consists of an endpoint where the Data Scientists bulk upload the products recommendation for every Decathlon Hong Kong member. When one of those members visit the ecommerce website homepage, a query is sent to the application API with the member unique identifier which responds with recommended products information.</p>
+
+<p>The decision to request the Recommendation Gateway API from the frontend was made to improve the autonomy and therefore the delivery performance of the Hong Kong Decathlon Tech Team. The ecommerce website being developed by a separated team in the company’s home country, the local team only has the hand on the frontend side.</p>
+
+<p>The main challenges of the Recommendation Gateway were to provide a convenient way for the Data Scientists to maintain the uploaded data and to serve the products information with a low response time. The source of products information is a legacy internal API with an average response time of 2sec per product. Using functional programming with Elixir made parallelization straightforward to implement and using Redis performant I/O and Time To Live strategy for caching allowed us to reach an average response time of 800ms for 6 products per query.</p>
 
               </div> <!-- col -->
 
