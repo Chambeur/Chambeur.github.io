@@ -6,4 +6,6 @@ h2 { padding: 10px; border-radius: 10px; background: #f9f9f9; }
 
 .brand { color: #7d0022; font-family: 'Abel', sans-serif; }
 
+.page-break { page-break-after: always; }
+
 /*# sourceMappingURL=main.css.map */
