@@ -15,6 +15,7 @@ stacks:
     label: info
     list:
       - Google App Engine
+      - Google Cloud Run
       - AppSignal
       - Github Actions
   - name: Development Tools
