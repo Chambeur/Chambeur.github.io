@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Resume | Marc Chamberlin
-header_subtext: Valid Hong Kong Work Visa Holder
 ---
 <div class="container">
   {% include header.html %}
@@ -29,10 +28,9 @@ header_subtext: Valid Hong Kong Work Visa Holder
 
             <div class="col-xs-10">
               {{ experience.content | markdownify }}
-
               <h4>
                 {% for tag in experience.tags %}
-                  <span class="label label-primary">{{ tag }}</span>
+                  <span class="label label-primary line-h-2">{{ tag }}</span>
                 {% endfor %}
               </h4>
             </div> <!-- col -->
@@ -139,7 +137,7 @@ header_subtext: Valid Hong Kong Work Visa Holder
           <dd>Mother tongue</dd>
 
           <dt>English</dt>
-          <dd>Bilingual (live in Hong Kong since 2015)</dd>
+          <dd>Proficient</dd>
         </dl>
 
       </div> <!-- col -->
