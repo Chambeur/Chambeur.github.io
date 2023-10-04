@@ -9,10 +9,10 @@ tags:
   - International Company
   - People Management
 ---
-The Decathlon Hong Kong Tech Team oversees the Hong Kong specific parts of the ecommerce website, the core being implemented by a separated team in France. The team, however, has autonomy on local initiatives to design, implement and run local applications used externally or internally.
+At Decathlon Hong Kong, the Tech Team is responsible for overseeing the Hong Kong-specific components of our e-commerce website, with the core functionalities developed by a separate team based in France. Despite this division, our team enjoys autonomy to conceptualize, implement, and maintain local applications used both internally and externally.
 
-As a Tech Lead, I help the team to shorten development life cycle and provide continuous delivery with high software quality through DevOps best practices. I introduced to the team concepts like TDD, static code analysis and code reviews, responsibilized the teammates with application ownerships ("you build it, you run it"), standardized and automated parts of the CI/CD pipeline and setup application monitoring tools.
+In my role as Tech Lead, I have played a pivotal role in streamlining our development life cycle and ensuring continuous delivery of high-quality software through the implementation of DevOps best practices. I introduced crucial concepts such as Test-Driven Development (TDD), static code analysis, and code reviews. I empowered team members by assigning application ownership ("you build it, you run it"), standardized and automated various components of our CI/CD pipeline, and established robust application monitoring tools.
 
-I collaborate as well with the Product Owners to provide the technical vision of the applications and suggest alternative technical solutions and take the responsibility for direction in terms of project architecture and technical choices.
+I maintain close collaboration with Product Owners to provide a clear technical vision for our applications, offering alternative technical solutions when necessary. I also shoulder the responsibility for guiding project architecture and making informed technical choices.
 
-As an Engineering Manager since October 2020, I manage a team of 6 developers, supporting them as they develop their role and their skills. I coordinate the appraisal process and manage teammates recruitment. I convey Decathlon's project, purpose and vision within the team through annual mission definition.
+Since assuming the role of Engineering Manager in October 2020, I have successfully managed a team of 6 developers, actively supporting their professional growth and skill development. My responsibilities include coordinating the appraisal process and leading recruitment efforts. Furthermore, I ensure alignment with Decathlon's mission, purpose, and vision by defining annual team missions.

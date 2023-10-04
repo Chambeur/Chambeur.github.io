@@ -43,9 +43,10 @@ stacks:
       - Git
       - Github
 ---
-This application is a Ruby-on-Rails monolith with chunks of code from the initial version of the application that was built in 2015.
-It leverage the "boring stack" principle by using battle-tested technologies and frameworks to optimize the time to market and the maintainability of the application.
+The Kactus web application is a Ruby-on-Rails monolith, containing code segments from its initial version developed in 2015. We follow the 'boring stack' principle, relying on well-established technologies and frameworks to optimize speed to market and ensure the application's long-term maintainability.
 
-Time to market is a key factor for a marketplace startup and therefore the development cycle is designed to ship features as fast as possible. We're using Github Flow to ship features and bug fixes to production multiple times a day, use Heroku Review Apps to test features in a production-like environment before merging them to the main branch. The team is using Github Actions to automate the CI/CD pipeline and deploy the application to production.
+In the fast-paced world of marketplace startups, time-to-market is a critical factor, shaping our development cycle to expedite feature releases. We employ the Github Flow methodology for shipping features and bug fixes to production, often making multiple daily releases. Heroku Review Apps are instrumental in testing features within a production-like environment before merging them into the main branch. To streamline the development process further, the team relies on Github Actions, automating the CI/CD pipeline and enabling seamless deployments to production.
 
-Using Hotwire (Stimulus / Turbo) instead of a front-end framework like React or VueJS allows us to ship features faster as we don't have to maintain a separate front-end application.
+Our choice to utilize Hotwire (Stimulus/Turbo) over other prevalent front-end frameworks like React or VueJS is driven by the need to expedite feature delivery. This approach eliminates the overhead of maintaining a separate front-end application, enabling us to ship features more swiftly.
+
+Ensuring quality is a fundamental aspect of our development process, and we utilize a range of tools to guarantee the dependability of our codebase, achieving a test coverage of over 80%. We do not merge any pull request unless it successfully passes through our rigorous testing suite, static code analysis, and a comprehensive code review process.

@@ -41,8 +41,8 @@ stacks:
       - Github
       - Sublime
 ---
-The Appysport platform aggregated multiple "macro-services" organised around multiple sports such as watersports, tennis (shutdown end 2019) and fitness. Shopify is used to host data, display the services (classes, lessons, rentals, etc) rendered with a custom Liquid template and handle the checkout process.
+The Appysport platform aggregated various sports marketplaces, including watersports, tennis (discontinued at the end of 2019), and fitness. Shopify served as the hosting platform for data storage and the display of services, such as classes, lessons, rentals, etc., using a custom Liquid template. It also facilitated the checkout process.
 
-An ETL built with Elixir served as bridge between the data provider Anybuddy and Shopify. It was designed to be fast, lightweight, fault-tolerant and mitigate Shopify API rate limits. Elixir pre-built scheduler served as an integrated CRON service.
+To efficiently manage data integration between the data provider Anybuddy and Shopify, we developed an ETL (Extract, Transform, Load) system using Elixir. This ETL system was meticulously designed to be fast, lightweight, fault-tolerant, and capable of mitigating Shopify API rate limits. Leveraging Elixir's built-in scheduler, we established an integrated CRON service for seamless task scheduling.
 
-Bookings' followup emails (confirmation to the customer/partner, cancelation, instructions, etc) was done with a Ruby-on-Rails application. A custom Domain Specific Language (DSL) was designed to simplify the configuration of automated emails and their integration with Sendgrid.
+For managing booking-related follow-up emails, including confirmations to customers/partners, cancellations, and instructions, we utilized a Ruby-on-Rails application. Within this system, we designed a custom Domain-Specific Language (DSL) to simplify the configuration of automated email workflows and their seamless integration with Sendgrid.
