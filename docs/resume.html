@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -15,13 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
-
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
     <div class="container">
   <div class="row header">
   <h1>Marc Chamberlin <small>Web & Software Engineer</small></h1>
@@ -32,14 +24,6 @@
 
   <a href="https://www.linkedin.com/in/chamberlinmarc/en" class="btn btn-default">
     <i class="fa fa-linkedin fa-lg"></i>
-  </a>
-
-  <a href="https://github.com/Chambeur" class="btn btn-default">
-    <i class="fa fa-github fa-lg"></i>
-  </a>
-
-  <a href="https://stackoverflow.com/users/2969823/chambeur?tab=profile" class="btn btn-default">
-    <i class="fa fa-stack-overflow fa-lg"></i>
   </a>
 
   
@@ -56,14 +40,146 @@
         
           
           <h3>
-            Decathlon - Tech Lead, Engineeting Manager </br>
-            <small>Hong Kong - since Mar 2020 to present</small>
+            Kactus - Tech Team Lead, Engineering Manager </br>
+            <small>Remote - from Jan 2022 to present</small>
+          </h3>
+
+          <div class="row">
+            <div class="col-xs-2">
+              <img src="./img/kactus.png" alt="Kactus Thumbnail" class="img-rounded img-responsive">
+            </div>
+
+            <div class="col-xs-10">
+              <p>Kactus is a marketplace for MICE (Meetings, Incentives, Conferences and Exhibitions) venues. It is a B2B SaaS platform that connects event planners with venues. The platform allows event planners to search, compare and book venues for their events. It also allows venues to manage and receive bookings.</p>
+
+<p>During the year 2022, Kactus merged with a competitor, Bird Office, to become the European leader of the MICE market. Being the technical expert of Kactus tech stack, I helped the team to integrate the Bird Office team with code reviews, technical discussions and pair programming sessions.</p>
+
+<p>As a Engineering Manager, I help the team to shorten development life cycle and provide continuous delivery with high software quality through DevOps best practices. I introduced to the team concepts like continuous deployment with Github Flow, standardized and automated parts of the CI/CD pipeline and setup application monitoring tools.
+Through processes and tools, I help the team to reduce the number of errors and vulnerabilities in production, reduce the number of tech support tickets, improve the code quality and test coverage.</p>
+
+<p>Tech Team Lead, I collaborate as well with the Product Owners to provide the technical vision of the applications and suggest alternative technical solutions and take the responsibility for direction in terms of project architecture and technical choices.</p>
+
+<p>I manage a team of developers (1 or 2), supporting them as they develop their role and their skills. I coordinate the appraisal process and manage teammates recruitment.</p>
+
+<p><a href="https://www.kactus.com">www.kactus.com</a></p>
+
+              <h4>
+                
+                  <span class="label label-primary line-h-2">Engineering Management</span>
+                
+                  <span class="label label-primary line-h-2">People Management</span>
+                
+                  <span class="label label-primary line-h-2">Product Oriented Development</span>
+                
+                  <span class="label label-primary line-h-2">MICE</span>
+                
+              </h4>
+            </div>
+          </div>
+
+          <hr/>
+          
+          
+            <h4>Kactus Marketplace</h4>
+            <div class="row">
+              <div class="col-xs-8">
+                <h5>Description</h5>
+                <p>This application is a Ruby-on-Rails monolith with chunks of code from the initial version of the application that was built in 2015.
+It leverage the “boring stack” principle by using battle-tested technologies and frameworks to optimize the time to market and the maintainability of the application.</p>
+
+<p>Time to market is a key factor for a marketplace startup and therefore the development cycle is designed to ship features as fast as possible. We’re using Github Flow to ship features and bug fixes to production multiple times a day, use Heroku Review Apps to test features in a production-like environment before merging them to the main branch. The team is using Github Actions to automate the CI/CD pipeline and deploy the application to production.</p>
+
+<p>Using Hotwire (Stimulus / Turbo) instead of a front-end framework like React or VueJS allows us to ship features faster as we don’t have to maintain a separate front-end application.</p>
+
+              </div>
+
+              <div class="col-xs-4">
+                <h5>Stack</h5>
+
+                <dl>
+                  
+                    <dt>Back-end</dt>
+                    
+                      <span class="label label-primary">Ruby-on-Rails</span>
+                    
+                      <span class="label label-primary">Sidekiq</span>
+                    
+                      <span class="label label-primary">Postgresql</span>
+                    
+                      <span class="label label-primary">Redis</span>
+                    
+                  
+                    <dt>Front-end</dt>
+                    
+                      <span class="label label-warning">Hotwire (Turbo / Stimulus)</span>
+                    
+                      <span class="label label-warning">View Components</span>
+                    
+                      <span class="label label-warning">ViteJS</span>
+                    
+                      <span class="label label-warning">Bootstrap</span>
+                    
+                  
+                    <dt>Testing</dt>
+                    
+                      <span class="label label-success">Unit/Request Testing (RSpec)</span>
+                    
+                      <span class="label label-success">E2E (Capybara)</span>
+                    
+                  
+                    <dt>Third Party Applications</dt>
+                    
+                      <span class="label label-danger">Algolia</span>
+                    
+                      <span class="label label-danger">Segment</span>
+                    
+                      <span class="label label-danger">Salesforce</span>
+                    
+                      <span class="label label-danger">Intercom</span>
+                    
+                      <span class="label label-danger">Sendgrid</span>
+                    
+                  
+                    <dt>Ops Tools</dt>
+                    
+                      <span class="label label-info">Heroku</span>
+                    
+                      <span class="label label-info">Github Actions</span>
+                    
+                      <span class="label label-info">New Relic</span>
+                    
+                      <span class="label label-info">Sentry</span>
+                    
+                  
+                    <dt>Development Tools</dt>
+                    
+                      <span class="label label-default">Notion</span>
+                    
+                      <span class="label label-default">Git</span>
+                    
+                      <span class="label label-default">Github</span>
+                    
+                  
+                <dl>
+              </div>
+            </div>
+            <hr/>
+          
+        
+        <h2 class="page-break"></h2>
+      
+
+        
+          
+          <h3>
+            Decathlon - Tech Lead, Engineering Manager </br>
+            <small>Hong Kong - from Mar 2020 to Jan 2022</small>
           </h3>
 
           <div class="row">
             <div class="col-xs-2">
               <img src="./img/decathlon.png" alt="Decathlon Thumbnail" class="img-rounded img-responsive">
-            </div> <!-- col -->
+            </div>
 
             <div class="col-xs-10">
               <p>The Decathlon Hong Kong Tech Team oversees the Hong Kong specific parts of the ecommerce website, the core being implemented by a separated team in France. The team, however, has autonomy on local initiatives to design, implement and run local applications used externally or internally.</p>
@@ -85,8 +201,8 @@
                   <span class="label label-primary line-h-2">People Management</span>
                 
               </h4>
-            </div> <!-- col -->
-          </div> <!-- row -->
+            </div>
+          </div>
 
           <hr/>
           
@@ -101,7 +217,7 @@
 
 <p>The decision to choose a framework not completely adapted to our need instead of building an application from scratch was right. We managed to roll out a marketplace (including partnerships, business development, communication, finance) in a few months and we are now already learning from the market.</p>
 
-              </div> <!-- col -->
+              </div>
 
               <div class="col-xs-4">
                 <h5>Stack</h5>
@@ -159,8 +275,8 @@
                     
                   
                 <dl>
-              </div> <!-- col -->
-            </div> <!-- row -->
+              </div>
+            </div>
             <hr/>
           
             <h4>Recommendation Gateway</h4>
@@ -173,7 +289,7 @@
 
 <p>The main challenges of the Recommendation Gateway were to provide a convenient way for the Data Scientists to maintain the uploaded data and to serve the products information with a low response time. The source of products information is a legacy internal API with an average response time of 2sec per product. Using functional programming with Elixir made parallelization straightforward to implement and using Redis performant I/O and Time To Live strategy for caching allowed us to reach an average response time of 800ms for 6 products per query.</p>
 
-              </div> <!-- col -->
+              </div>
 
               <div class="col-xs-4">
                 <h5>Stack</h5>
@@ -215,8 +331,8 @@
                     
                   
                 <dl>
-              </div> <!-- col -->
-            </div> <!-- row -->
+              </div>
+            </div>
             <hr/>
           
         
@@ -233,7 +349,7 @@
           <div class="row">
             <div class="col-xs-2">
               <img src="./img/appysport.png" alt="Appysport Thumbnail" class="img-rounded img-responsive">
-            </div> <!-- col -->
+            </div>
 
             <div class="col-xs-10">
               <p>Appysport (shut down in 2020) was a start-up based in Hong Kong aiming to facilitate sports practice in Hong Kong with technology. Appysport started with tennis and watersports to make them more accessible to the many and wants to make it possible for sports lovers to easily propose or join activities, invite their friends, hire coaches, or even rent equipment.</p>
@@ -249,8 +365,8 @@
                   <span class="label label-primary line-h-2">Sport Innovation</span>
                 
               </h4>
-            </div> <!-- col -->
-          </div> <!-- row -->
+            </div>
+          </div>
 
           <hr/>
           
@@ -265,7 +381,7 @@
 
 <p>Bookings’ followup emails (confirmation to the customer/partner, cancelation, instructions, etc) was done with a Ruby-on-Rails application. A custom Domain Specific Language (DSL) was designed to simplify the configuration of automated emails and their integration with Sendgrid.</p>
 
-              </div> <!-- col -->
+              </div>
 
               <div class="col-xs-4">
                 <h5>Stack</h5>
@@ -331,8 +447,8 @@
                     
                   
                 <dl>
-              </div> <!-- col -->
-            </div> <!-- row -->
+              </div>
+            </div>
             <hr/>
           
         
@@ -789,98 +905,16 @@
         <h2 class="page-break"></h2>
       
 
-    </div> <!-- col -->
-  </div> <!-- row -->
-
-  <div class="row">
-    <h2>Side Project</h2>
-
-    <div class="col-xs-12">
-      
-      
-        <h4>Coinberg App</h4>
-        <div class="row">
-          <div class="col-xs-8">
-            <h5>Description</h5>
-            <p>Coinberg is an application that fetches holdings from various blockchain wallets (bitcoin, ethereum, dash, and neo), and aggregates their value.</p>
-
-<p>The first technical goal of this project was to learn EmberJS to complete my front-end development skills. The second technical goal was to migrate the Ruby-on-Rails codebase into an Elixir/Phoenix codebase to learn and improve the app performance.</p>
-
-<p><a href="https://coinberg.app">coinberg.app</a></p>
-
-          </div> <!-- col -->
-
-          <div class="col-xs-4">
-            <h5>Stack</h5>
-
-            <dl>
-              
-                <dt>Back-end</dt>
-                
-                  <span class="label label-primary">Ruby-on-Rails</span>
-                
-                  <span class="label label-primary">Postgresql</span>
-                
-                  <span class="label label-primary">JSONAPI</span>
-                
-              
-                <dt>Front-end</dt>
-                
-                  <span class="label label-warning">EmberJS</span>
-                
-                  <span class="label label-warning">Material Design</span>
-                
-              
-                <dt>Testing</dt>
-                
-                  <span class="label label-success">TDD</span>
-                
-                  <span class="label label-success">RSpec</span>
-                
-                  <span class="label label-success">FactoryBot</span>
-                
-              
-                <dt>Third Party Applications</dt>
-                
-                  <span class="label label-danger">Auth0</span>
-                
-                  <span class="label label-danger">CoinMarkerCap</span>
-                
-                  <span class="label label-danger">Various Blockchain APIs</span>
-                
-              
-                <dt>Admin Tools</dt>
-                
-                  <span class="label label-info">Heroku</span>
-                
-                  <span class="label label-info">Sentry</span>
-                
-              
-                <dt>Development Tools</dt>
-                
-                  <span class="label label-default">Git</span>
-                
-                  <span class="label label-default">Github</span>
-                
-                  <span class="label label-default">Sublime</span>
-                
-              
-            <dl>
-          </div> <!-- col -->
-        </div> <!-- row -->
-        <hr/>
-      
-    </div> <!-- col -->
-  </div> <!-- row -->
+    </div>
+  </div>
 
   <div class="row">
     <h2>Education</h2>
 
-    <!-- Epita -->
     <div class="row">
       <div class="col-xs-2">
         <img src="./img/epita.jpg" alt="Epita Thumbnail" class="img-rounded img-responsive">
-      </div> <!-- col -->
+      </div>
 
       <div class="col-xs-10">
         <h3>EPITA - Master in Computer Science <small>Paris - 2011</small></h3>
@@ -894,14 +928,14 @@
           Been elected class representative 5 years in a row. Worked on the cohesion of the group, delivered information to the class, organized the course planning of the last year school, improved the sense of organization and team working cohesion.
         </p>
 
-      </div> <!-- col -->
-    </div> <!-- row -->
+      </div>
+    </div>
 
     <!-- Languages -->
     <div class="row">
       <div class="col-xs-2">
         <img src="./img/languages.png" alt="Languages Thumbnail" class="img-rounded img-responsive">
-      </div> <!-- col -->
+      </div>
 
       <div class="col-xs-10">
         <h3>Languages</h3>
@@ -914,17 +948,11 @@
           <dd>Proficient</dd>
         </dl>
 
-      </div> <!-- col -->
-    </div> <!-- row -->
+      </div>
+    </div>
 
-  </div> <!-- row -->
-</div> <!-- container -->
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
+  </div>
+</div>
 
     <script src="js/main.js"></script>
   </body>

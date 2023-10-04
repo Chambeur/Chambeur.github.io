@@ -40,5 +40,3 @@ stacks:
 Coinberg is an application that fetches holdings from various blockchain wallets (bitcoin, ethereum, dash, and neo), and aggregates their value.
 
 The first technical goal of this project was to learn EmberJS to complete my front-end development skills. The second technical goal was to migrate the Ruby-on-Rails codebase into an Elixir/Phoenix codebase to learn and improve the app performance.
-
-[coinberg.app](https://coinberg.app)
