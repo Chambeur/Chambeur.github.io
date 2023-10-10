@@ -3,6 +3,7 @@ date: 2020-03-01
 role: Decathlon - Tech Lead, Engineering Manager
 context: Hong Kong - from Mar 2020 to Jan 2022
 link: www.decathlon.com.hk
+page_break: true
 tags:
   - Retail Digital Transformation
   - DevOps

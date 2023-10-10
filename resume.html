@@ -6,70 +6,69 @@ title: Resume | Marc Chamberlin
   {% include header.html %}
 
   <div class="row">
-    <h2>Work Experience</h2>
+    <h2 class="header">Work Experience</h2>
 
     <div class="col-xs-12">
       {% assign experiences = site.experiences | sort: 'date' | reverse %}
       {% for experience in experiences %}
+        {% if experience.page_break %}
+          <span class="page-break"></span>
+        {% endif %}
+        {% assign code = experience.title | downcase %}
+        <h3>
+          <u>{{ experience.role }}</u> </br>
+          <small>{{ experience.context }}</small>
+        </h3>
 
-        {% if experience.legacy %}
-          {{ experience.content }}
-        {% else %}
-          {% assign code = experience.title | downcase %}
-          <h3>
-            {{ experience.role }} </br>
-            <small>{{ experience.context }}</small>
-          </h3>
-
-          <div class="row">
-            <div class="col-xs-2">
-              <img src="./img/{{ code }}.png" alt="{{ code | capitalize }} Thumbnail" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-xs-10">
-              {{ experience.content | markdownify }}
-              <h4>
-                {% for tag in experience.tags %}
-                  <span class="label label-primary line-h-2">{{ tag }}</span>
-                {% endfor %}
-              </h4>
-            </div>
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/{{ code }}.png" alt="{{ code | capitalize }} Thumbnail" class="img-rounded img-responsive">
           </div>
 
-          <hr/>
-          {% assign projects = site.projects | where: 'experience', code %}
-          {% for project in projects %}
-            <h4>{{ project.title }}</h4>
-            <div class="row">
-              <div class="col-xs-8">
-                <h5>Description</h5>
-                {{ project.content | markdownify }}
-              </div>
+          <div class="col-xs-10">
+            {{ experience.content | markdownify }}
+            <h4>
+              {% for tag in experience.tags %}
+                <span class="label label-primary line-h-2">{{ tag }}</span>
+              {% endfor %}
+            </h4>
+          </div>
+        </div>
 
-              <div class="col-xs-4">
-                <h5>Stack</h5>
-
-                <dl>
-                  {% for stack in project.stacks %}
-                    <dt>{{ stack.name }}</dt>
-                    {% for item in stack.list %}
-                      <span class="label label-{{ stack.label }}">{{ item }}</span>
-                    {% endfor %}
-                  {% endfor %}
-                <dl>
-              </div>
+        <hr/>
+        {% assign projects = site.projects | where: 'experience', code %}
+        {% for project in projects %}
+          {% if project.page_break %}
+            <span class="page-break"></span>
+          {% endif %}
+          <h4>{{ project.title }}</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              {{ project.content | markdownify }}
             </div>
-            <hr/>
-          {% endfor %}
-        {% endif %}
-        <h2 class="page-break"></h2>
-      {% endfor %}
 
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                {% for stack in project.stacks %}
+                  <dt>{{ stack.name }}</dt>
+                  {% for item in stack.list %}
+                    <span class="label label-{{ stack.label }}">{{ item }}</span>
+                  {% endfor %}
+                {% endfor %}
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        {% endfor %}
+      {% endfor %}
     </div>
   </div>
 
   <div class="row">
-    <h2>Education</h2>
+    <h2 class="header">Education</h2>
 
     <div class="row">
       <div class="col-xs-2">
@@ -107,9 +106,7 @@ title: Resume | Marc Chamberlin
           <dt>English</dt>
           <dd>Proficient</dd>
         </dl>
-
       </div>
     </div>
-
   </div>
 </div>

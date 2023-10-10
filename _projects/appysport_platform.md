@@ -1,6 +1,7 @@
 ---
 title: Appysport Platform
 experience: appysport
+page_break: true
 stacks:
   - name: Back-end
     label: primary

@@ -9,8 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -31,26 +31,25 @@
 
 
   <div class="row">
-    <h2>Work Experience</h2>
+    <h2 class="header">Work Experience</h2>
 
     <div class="col-xs-12">
       
       
-
         
-          
-          <h3>
-            Kactus - Tech Team Lead, Engineering Manager </br>
-            <small>Remote - from Jan 2022 to present</small>
-          </h3>
+        
+        <h3>
+          <u>Kactus - Tech Team Lead, Engineering Manager</u> </br>
+          <small>Remote - from Jan 2022 to present</small>
+        </h3>
 
-          <div class="row">
-            <div class="col-xs-2">
-              <img src="./img/kactus.png" alt="Kactus Thumbnail" class="img-rounded img-responsive">
-            </div>
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/kactus.png" alt="Kactus Thumbnail" class="img-rounded img-responsive">
+          </div>
 
-            <div class="col-xs-10">
-              <p>Kactus is a marketplace for MICE (Meetings, Incentives, Conferences, and Exhibitions) venues. It is a B2B SaaS platform that connects event planners with venues. The platform enables event planners to search, compare, and book venues for their events, while also allowing venues to manage and receive bookings.</p>
+          <div class="col-xs-10">
+            <p>Kactus is a marketplace for MICE (Meetings, Incentives, Conferences, and Exhibitions) venues. It is a B2B SaaS platform that connects event planners with venues. The platform enables event planners to search, compare, and book venues for their events, while also allowing venues to manage and receive bookings.</p>
 
 <p>In 2022, Kactus merged with a competitor, Bird Office, to become the European leader in the MICE market. As the technical expert of Kactus’ tech stack, I played a key role in integrating the Bird Office team. This involved conducting code reviews, engaging in technical discussions, and participating in pair programming sessions.</p>
 
@@ -62,28 +61,31 @@
 
 <p><a href="https://www.kactus.com">www.kactus.com</a></p>
 
-              <h4>
-                
-                  <span class="label label-primary line-h-2">Engineering Management</span>
-                
-                  <span class="label label-primary line-h-2">People Management</span>
-                
-                  <span class="label label-primary line-h-2">Product Oriented Development</span>
-                
-                  <span class="label label-primary line-h-2">MICE</span>
-                
-              </h4>
-            </div>
+            <h4>
+              
+                <span class="label label-primary line-h-2">Engineering Management</span>
+              
+                <span class="label label-primary line-h-2">People Management</span>
+              
+                <span class="label label-primary line-h-2">Product Oriented Development</span>
+              
+                <span class="label label-primary line-h-2">MICE</span>
+              
+            </h4>
           </div>
+        </div>
 
-          <hr/>
+        <hr/>
+        
+        
           
+            <span class="page-break"></span>
           
-            <h4>Kactus Marketplace</h4>
-            <div class="row">
-              <div class="col-xs-8">
-                <h5>Description</h5>
-                <p>The Kactus web application is a Ruby-on-Rails monolith, containing code segments from its initial version developed in 2015. We follow the ‘boring stack’ principle, relying on well-established technologies and frameworks to optimize speed to market and ensure the application’s long-term maintainability.</p>
+          <h4>Kactus Marketplace</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>The Kactus web application is a Ruby-on-Rails monolith, containing code segments from its initial version developed in 2015. We follow the ‘boring stack’ principle, relying on well-established technologies and frameworks to optimize speed to market and ensure the application’s long-term maintainability.</p>
 
 <p>In the fast-paced world of marketplace startups, time-to-market is a critical factor, shaping our development cycle to expedite feature releases. We employ the Github Flow methodology for shipping features and bug fixes to production, often making multiple daily releases. Heroku Review Apps are instrumental in testing features within a production-like environment before merging them into the main branch. To streamline the development process further, the team relies on Github Actions, automating the CI/CD pipeline and enabling seamless deployments to production.</p>
 
@@ -91,98 +93,97 @@
 
 <p>Ensuring quality is a fundamental aspect of our development process, and we utilize a range of tools to guarantee the dependability of our codebase, achieving a test coverage of over 80%. We do not merge any pull request unless it successfully passes through our rigorous testing suite, static code analysis, and a comprehensive code review process.</p>
 
-              </div>
-
-              <div class="col-xs-4">
-                <h5>Stack</h5>
-
-                <dl>
-                  
-                    <dt>Back-end</dt>
-                    
-                      <span class="label label-primary">Ruby-on-Rails</span>
-                    
-                      <span class="label label-primary">Sidekiq</span>
-                    
-                      <span class="label label-primary">Postgresql</span>
-                    
-                      <span class="label label-primary">Redis</span>
-                    
-                  
-                    <dt>Front-end</dt>
-                    
-                      <span class="label label-warning">Hotwire (Turbo / Stimulus)</span>
-                    
-                      <span class="label label-warning">View Components</span>
-                    
-                      <span class="label label-warning">ViteJS</span>
-                    
-                      <span class="label label-warning">Bootstrap</span>
-                    
-                  
-                    <dt>Testing</dt>
-                    
-                      <span class="label label-success">Unit/Request Testing (RSpec)</span>
-                    
-                      <span class="label label-success">E2E (Capybara)</span>
-                    
-                  
-                    <dt>Third Party Applications</dt>
-                    
-                      <span class="label label-danger">Algolia</span>
-                    
-                      <span class="label label-danger">Segment</span>
-                    
-                      <span class="label label-danger">Salesforce</span>
-                    
-                      <span class="label label-danger">Intercom</span>
-                    
-                      <span class="label label-danger">Sendgrid</span>
-                    
-                  
-                    <dt>Ops Tools</dt>
-                    
-                      <span class="label label-info">Heroku</span>
-                    
-                      <span class="label label-info">Github Actions</span>
-                    
-                      <span class="label label-info">New Relic</span>
-                    
-                      <span class="label label-info">Sentry</span>
-                    
-                  
-                    <dt>Development Tools</dt>
-                    
-                      <span class="label label-default">Notion</span>
-                    
-                      <span class="label label-default">Git</span>
-                    
-                      <span class="label label-default">Github</span>
-                    
-                  
-                <dl>
-              </div>
             </div>
-            <hr/>
-          
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails</span>
+                  
+                    <span class="label label-primary">Sidekiq</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                    <span class="label label-primary">Redis</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">Hotwire (Turbo / Stimulus)</span>
+                  
+                    <span class="label label-warning">View Components</span>
+                  
+                    <span class="label label-warning">ViteJS</span>
+                  
+                    <span class="label label-warning">Bootstrap</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">Unit/Request Testing (RSpec)</span>
+                  
+                    <span class="label label-success">E2E (Capybara)</span>
+                  
+                
+                  <dt>Third Party Applications</dt>
+                  
+                    <span class="label label-danger">Algolia</span>
+                  
+                    <span class="label label-danger">Segment</span>
+                  
+                    <span class="label label-danger">Salesforce</span>
+                  
+                    <span class="label label-danger">Intercom</span>
+                  
+                    <span class="label label-danger">Sendgrid</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Heroku</span>
+                  
+                    <span class="label label-info">Github Actions</span>
+                  
+                    <span class="label label-info">New Relic</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Notion</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
         
-        <h2 class="page-break"></h2>
       
-
         
-          
-          <h3>
-            Decathlon - Tech Lead, Engineering Manager </br>
-            <small>Hong Kong - from Mar 2020 to Jan 2022</small>
-          </h3>
+          <span class="page-break"></span>
+        
+        
+        <h3>
+          <u>Decathlon - Tech Lead, Engineering Manager</u> </br>
+          <small>Hong Kong - from Mar 2020 to Jan 2022</small>
+        </h3>
 
-          <div class="row">
-            <div class="col-xs-2">
-              <img src="./img/decathlon.png" alt="Decathlon Thumbnail" class="img-rounded img-responsive">
-            </div>
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/decathlon.png" alt="Decathlon Thumbnail" class="img-rounded img-responsive">
+          </div>
 
-            <div class="col-xs-10">
-              <p>At Decathlon Hong Kong, the Tech Team is responsible for overseeing the Hong Kong-specific components of our e-commerce website, with the core functionalities developed by a separate team based in France. Despite this division, our team enjoys autonomy to conceptualize, implement, and maintain local applications used both internally and externally.</p>
+          <div class="col-xs-10">
+            <p>At Decathlon Hong Kong, the Tech Team is responsible for overseeing the Hong Kong-specific components of our e-commerce website, with the core functionalities developed by a separate team based in France. Despite this division, our team enjoys autonomy to conceptualize, implement, and maintain local applications used both internally and externally.</p>
 
 <p>In my role as Tech Lead, I have played a pivotal role in streamlining our development life cycle and ensuring continuous delivery of high-quality software through the implementation of DevOps best practices. I introduced crucial concepts such as Test-Driven Development (TDD), static code analysis, and code reviews. I empowered team members by assigning application ownership (“you build it, you run it”), standardized and automated various components of our CI/CD pipeline, and established robust application monitoring tools.</p>
 
@@ -190,28 +191,29 @@
 
 <p>Since assuming the role of Engineering Manager in October 2020, I have successfully managed a team of 6 developers, actively supporting their professional growth and skill development. My responsibilities include coordinating the appraisal process and leading recruitment efforts. Furthermore, I ensure alignment with Decathlon’s mission, purpose, and vision by defining annual team missions.</p>
 
-              <h4>
-                
-                  <span class="label label-primary line-h-2">Retail Digital Transformation</span>
-                
-                  <span class="label label-primary line-h-2">DevOps</span>
-                
-                  <span class="label label-primary line-h-2">International Company</span>
-                
-                  <span class="label label-primary line-h-2">People Management</span>
-                
-              </h4>
-            </div>
+            <h4>
+              
+                <span class="label label-primary line-h-2">Retail Digital Transformation</span>
+              
+                <span class="label label-primary line-h-2">DevOps</span>
+              
+                <span class="label label-primary line-h-2">International Company</span>
+              
+                <span class="label label-primary line-h-2">People Management</span>
+              
+            </h4>
           </div>
+        </div>
 
-          <hr/>
+        <hr/>
+        
+        
           
-          
-            <h4>Decathlon Plus</h4>
-            <div class="row">
-              <div class="col-xs-8">
-                <h5>Description</h5>
-                <p>Decathlon Plus represents an innovative venture aimed at exploring the sport retail marketplace business, covering the entire spectrum from seller onboarding to shipment tracking.</p>
+          <h4>Decathlon Plus</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>Decathlon Plus represents an innovative venture aimed at exploring the sport retail marketplace business, covering the entire spectrum from seller onboarding to shipment tracking.</p>
 
 <p>The creation of this marketplace website was initiated using a Ruby-on-Rails e-commerce framework known as Solidus, which furnished the core functionalities essential for an e-commerce platform, including product listing pages, product details, checkout processes, payment integrations, and more. The adaptable nature of this framework allowed us to seamlessly extend the data model to incorporate critical data pertaining to sellers and their respective brands.</p>
 
@@ -219,699 +221,832 @@
 
 <p>The strategic decision to leverage an existing framework, even if not entirely tailored to our specific needs, proved to be prudent. In just a matter of months, we successfully launched a comprehensive marketplace, encompassing critical aspects such as partnerships, business development, communications, and financial operations. As a result, we have swiftly immersed ourselves in the market and are actively learning from this experience.</p>
 
-              </div>
-
-              <div class="col-xs-4">
-                <h5>Stack</h5>
-
-                <dl>
-                  
-                    <dt>Back-end</dt>
-                    
-                      <span class="label label-primary">Ruby-on-Rails (Solidus)</span>
-                    
-                      <span class="label label-primary">Postgresql</span>
-                    
-                  
-                    <dt>Front-end</dt>
-                    
-                      <span class="label label-warning">Bootstrap</span>
-                    
-                      <span class="label label-warning">SASS</span>
-                    
-                      <span class="label label-warning">Slim Templates</span>
-                    
-                  
-                    <dt>Testing</dt>
-                    
-                      <span class="label label-success">TDD/BDD (RSpec)</span>
-                    
-                      <span class="label label-success">E2E (Cypress)</span>
-                    
-                  
-                    <dt>Third Party Applications</dt>
-                    
-                      <span class="label label-danger">Stripe</span>
-                    
-                      <span class="label label-danger">Sendgrid</span>
-                    
-                  
-                    <dt>Ops Tools</dt>
-                    
-                      <span class="label label-info">Google Compute Engine</span>
-                    
-                      <span class="label label-info">AppSignal</span>
-                    
-                      <span class="label label-info">Github Actions</span>
-                    
-                  
-                    <dt>Development Tools</dt>
-                    
-                      <span class="label label-default">Jira</span>
-                    
-                      <span class="label label-default">Git</span>
-                    
-                      <span class="label label-default">Github</span>
-                    
-                      <span class="label label-default">Sublime</span>
-                    
-                  
-                <dl>
-              </div>
             </div>
-            <hr/>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails (Solidus)</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">Bootstrap</span>
+                  
+                    <span class="label label-warning">SASS</span>
+                  
+                    <span class="label label-warning">Slim Templates</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD/BDD (RSpec)</span>
+                  
+                    <span class="label label-success">E2E (Cypress)</span>
+                  
+                
+                  <dt>Third Party Applications</dt>
+                  
+                    <span class="label label-danger">Stripe</span>
+                  
+                    <span class="label label-danger">Sendgrid</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Google Compute Engine</span>
+                  
+                    <span class="label label-info">AppSignal</span>
+                  
+                    <span class="label label-info">Github Actions</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
           
-            <h4>Recommendation Gateway</h4>
-            <div class="row">
-              <div class="col-xs-8">
-                <h5>Description</h5>
-                <p>The Recommendation Gateway was developed to empower Data Scientists with the continuous application of their product recommendation models on the local e-commerce website. This system comprises an endpoint where Data Scientists can efficiently bulk-upload product recommendations for every customer member of Decathlon Hong Kong. When a Decathlon Hong Kong member visits the e-commerce website’s homepage, a query is transmitted to the application’s API, accompanied by the member’s unique identifier, which elicits a response containing personalized product recommendations.</p>
+          <h4>Recommendation Gateway</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>The Recommendation Gateway was developed to empower Data Scientists with the continuous application of their product recommendation models on the local e-commerce website. This system comprises an endpoint where Data Scientists can efficiently bulk-upload product recommendations for every customer member of Decathlon Hong Kong. When a Decathlon Hong Kong member visits the e-commerce website’s homepage, a query is transmitted to the application’s API, accompanied by the member’s unique identifier, which elicits a response containing personalized product recommendations.</p>
 
 <p>The decision to initiate requests to the Recommendation Gateway API from the frontend was driven by the objective of enhancing the autonomy and, consequently, the delivery performance of the Hong Kong Decathlon Tech Team. Since the development of the e-commerce website is undertaken by a separate team based in the company’s home country, the local team primarily focuses on frontend development.</p>
 
 <p>The primary challenges encountered in developing the Recommendation Gateway revolved around providing Data Scientists with an efficient means of maintaining uploaded data and ensuring speedy retrieval of product information. The source of product information originates from a legacy internal API, which typically yields an average response time of 2 seconds per product query. Leveraging functional programming with Elixir facilitated straightforward parallelization, and the utilization of Redis, combined with an effective caching strategy, significantly improved I/O performance and reduced the average response time to a remarkable 800 milliseconds for each query involving up to 6 products.</p>
 
-              </div>
-
-              <div class="col-xs-4">
-                <h5>Stack</h5>
-
-                <dl>
-                  
-                    <dt>Back-end</dt>
-                    
-                      <span class="label label-primary">Elixir</span>
-                    
-                      <span class="label label-primary">Redis</span>
-                    
-                  
-                    <dt>Testing</dt>
-                    
-                      <span class="label label-success">TDD/BDD (ESpec)</span>
-                    
-                  
-                    <dt>Ops Tools</dt>
-                    
-                      <span class="label label-info">Google App Engine</span>
-                    
-                      <span class="label label-info">Google Cloud Run</span>
-                    
-                      <span class="label label-info">AppSignal</span>
-                    
-                      <span class="label label-info">Github Actions</span>
-                    
-                  
-                    <dt>Development Tools</dt>
-                    
-                      <span class="label label-default">Jira</span>
-                    
-                      <span class="label label-default">Git</span>
-                    
-                      <span class="label label-default">Github</span>
-                    
-                      <span class="label label-default">Sublime</span>
-                    
-                  
-                <dl>
-              </div>
             </div>
-            <hr/>
-          
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Elixir</span>
+                  
+                    <span class="label label-primary">Redis</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD/BDD (ESpec)</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Google App Engine</span>
+                  
+                    <span class="label label-info">Google Cloud Run</span>
+                  
+                    <span class="label label-info">AppSignal</span>
+                  
+                    <span class="label label-info">Github Actions</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
         
-        <h2 class="page-break"></h2>
       
-
         
-          
-          <h3>
-            Appysport - Senior Developer </br>
-            <small>Hong Kong - Part-time since Sep 2018, full-time since Oct 2019 to Feb 2020</small>
-          </h3>
+        
+        <h3>
+          <u>Appysport - Senior Developer</u> </br>
+          <small>Hong Kong - Part-time since Sep 2018, full-time since Oct 2019 to Feb 2020</small>
+        </h3>
 
-          <div class="row">
-            <div class="col-xs-2">
-              <img src="./img/appysport.png" alt="Appysport Thumbnail" class="img-rounded img-responsive">
-            </div>
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/appysport.png" alt="Appysport Thumbnail" class="img-rounded img-responsive">
+          </div>
 
-            <div class="col-xs-10">
-              <p>Appysport (shut down in 2020) was a start-up based in Hong Kong aiming to facilitate sports practice in Hong Kong with technology. Appysport started with tennis and watersports to make them more accessible to the many and wants to make it possible for sports lovers to easily propose or join activities, invite their friends, hire coaches, or even rent equipment.</p>
+          <div class="col-xs-10">
+            <p>Appysport (shut down in 2020) was a start-up based in Hong Kong aiming to facilitate sports practice in Hong Kong with technology. Appysport started with tennis and watersports to make them more accessible to the many and wants to make it possible for sports lovers to easily propose or join activities, invite their friends, hire coaches, or even rent equipment.</p>
 
 <p>As a Senior Developer, my role was to design and build the Appysport platform, work closely with the product managers to provide technical solutions and integrate the existing external platforms to our own backoffice.</p>
 
-              <h4>
-                
-                  <span class="label label-primary line-h-2">Web Development</span>
-                
-                  <span class="label label-primary line-h-2">Startup</span>
-                
-                  <span class="label label-primary line-h-2">Sport Innovation</span>
-                
-              </h4>
-            </div>
+            <h4>
+              
+                <span class="label label-primary line-h-2">Web Development</span>
+              
+                <span class="label label-primary line-h-2">Startup</span>
+              
+                <span class="label label-primary line-h-2">Sport Innovation</span>
+              
+            </h4>
           </div>
+        </div>
 
-          <hr/>
+        <hr/>
+        
+        
           
+            <span class="page-break"></span>
           
-            <h4>Appysport Platform</h4>
-            <div class="row">
-              <div class="col-xs-8">
-                <h5>Description</h5>
-                <p>The Appysport platform aggregated various sports marketplaces, including watersports, tennis (discontinued at the end of 2019), and fitness. Shopify served as the hosting platform for data storage and the display of services, such as classes, lessons, rentals, etc., using a custom Liquid template. It also facilitated the checkout process.</p>
+          <h4>Appysport Platform</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>The Appysport platform aggregated various sports marketplaces, including watersports, tennis (discontinued at the end of 2019), and fitness. Shopify served as the hosting platform for data storage and the display of services, such as classes, lessons, rentals, etc., using a custom Liquid template. It also facilitated the checkout process.</p>
 
 <p>To efficiently manage data integration between the data provider Anybuddy and Shopify, we developed an ETL (Extract, Transform, Load) system using Elixir. This ETL system was meticulously designed to be fast, lightweight, fault-tolerant, and capable of mitigating Shopify API rate limits. Leveraging Elixir’s built-in scheduler, we established an integrated CRON service for seamless task scheduling.</p>
 
 <p>For managing booking-related follow-up emails, including confirmations to customers/partners, cancellations, and instructions, we utilized a Ruby-on-Rails application. Within this system, we designed a custom Domain-Specific Language (DSL) to simplify the configuration of automated email workflows and their seamless integration with Sendgrid.</p>
 
-              </div>
-
-              <div class="col-xs-4">
-                <h5>Stack</h5>
-
-                <dl>
-                  
-                    <dt>Back-end</dt>
-                    
-                      <span class="label label-primary">Ruby-on-Rails</span>
-                    
-                      <span class="label label-primary">Elixir</span>
-                    
-                      <span class="label label-primary">Postgresql</span>
-                    
-                  
-                    <dt>Front-end</dt>
-                    
-                      <span class="label label-warning">VueJS</span>
-                    
-                      <span class="label label-warning">NuxtJS</span>
-                    
-                      <span class="label label-warning">Liquid Templates</span>
-                    
-                  
-                    <dt>Testing</dt>
-                    
-                      <span class="label label-success">TDD</span>
-                    
-                      <span class="label label-success">RSpec/ESpec</span>
-                    
-                  
-                    <dt>Third Party Applications</dt>
-                    
-                      <span class="label label-danger">Shopify GraphQL API</span>
-                    
-                      <span class="label label-danger">Anybuddy</span>
-                    
-                      <span class="label label-danger">Auth0</span>
-                    
-                      <span class="label label-danger">Sendgrid</span>
-                    
-                  
-                    <dt>Admin Tools</dt>
-                    
-                      <span class="label label-info">KintoHub</span>
-                    
-                      <span class="label label-info">Sentry</span>
-                    
-                      <span class="label label-info">Cloudflare</span>
-                    
-                  
-                    <dt>Development Tools</dt>
-                    
-                      <span class="label label-default">Jira</span>
-                    
-                      <span class="label label-default">Trello</span>
-                    
-                      <span class="label label-default">Git</span>
-                    
-                      <span class="label label-default">Github</span>
-                    
-                      <span class="label label-default">Sublime</span>
-                    
-                  
-                <dl>
-              </div>
             </div>
-            <hr/>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails</span>
+                  
+                    <span class="label label-primary">Elixir</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">VueJS</span>
+                  
+                    <span class="label label-warning">NuxtJS</span>
+                  
+                    <span class="label label-warning">Liquid Templates</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD</span>
+                  
+                    <span class="label label-success">RSpec/ESpec</span>
+                  
+                
+                  <dt>Third Party Applications</dt>
+                  
+                    <span class="label label-danger">Shopify GraphQL API</span>
+                  
+                    <span class="label label-danger">Anybuddy</span>
+                  
+                    <span class="label label-danger">Auth0</span>
+                  
+                    <span class="label label-danger">Sendgrid</span>
+                  
+                
+                  <dt>Admin Tools</dt>
+                  
+                    <span class="label label-info">KintoHub</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                    <span class="label label-info">Cloudflare</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Trello</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
+      
+        
+        
+        <h3>
+          <u>BookingSync - Senior Developer / Team Leader</u> </br>
+          <small>Hong Kong - Jun 2017 to Sep 2019</small>
+        </h3>
+
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/bookingsync.png" alt="Bookingsync Thumbnail" class="img-rounded img-responsive">
+          </div>
+
+          <div class="col-xs-10">
+            <p>BookingSync is a remote-based company with collaborators all around the world. It provides services to vacation rentals property managers through multiple in-house applications and external partner systems such as Airbnb, Booking.com and TripAdvisor. More than 20.000 rentals are managed in over 66 countries. More than 2.3 billion bookings were handled through Bookingsync.</p>
+
+<p>As a Senior Developer, my role was to design more complex features and to oversee the work of other developers. I also had to keep applications under my scope up and running. Those applications had various business objectives:</p>
+<ul>
+  <li>Notification Center app that triggers emails sent to travelers</li>
+  <li>Owners portal app that facilitates communication between a property manager and the rental’s owner</li>
+  <li>TripAdvisor Integration app to help property manager oversee which rentals to push TripAdvisor platform</li>
+  <li>Invoice app that generates invoices based on custom templates</li>
+  <li>Website Builder, that generates fully functional rental booking websites automatically plugged to BookingSync</li>
+</ul>
+
+<p>The stack being similar among the applications, I initialized the standardization of their README to cover installation, setup, development process, testing, deployment, and monitoring.</p>
+
+<p>As a Team Leader, my role was to facilitate the communication between with other teams and also to smoother the organization within the team (4 developers &amp; 2 customer supports).</p>
+
+<p><a href="https://www.bookingsync.com">www.bookingsync.com</a></p>
+
+            <h4>
+              
+                <span class="label label-primary line-h-2">Web Development</span>
+              
+                <span class="label label-primary line-h-2">Web Administration</span>
+              
+                <span class="label label-primary line-h-2">Vacation Rental</span>
+              
+            </h4>
+          </div>
+        </div>
+
+        <hr/>
+        
+        
           
+          <h4>BookingSync Notification Center App</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>The Notification app is critical in the vacation rental process as it handles all the emailing of check-in and check-out details, contracts, payment reminders and other information to the travelers. It relies heavily on background jobs and real-time constraints. Being the application I worked the most on, it was released 2 years before I started working on it. I covered all parts of the app, including:</p>
+<ul>
+  <li>Improve UX by reducing risks of typos (especially for email address errors</li>
+  <li>Prevent emails from being sent twice by refactoring SQL queries</li>
+  <li>Implement soft-deletion feature for all DB records for data recovery and audit</li>
+  <li>Setup healthcheck that triggers alerts when delay sending notifications is too high</li>
+  <li>Implement a “retry later” feature when Mandrill’s servers are down</li>
+  <li>Fix all warnings and stylecheck offenses</li>
+  <li>Add pagination to index pages and remove n+1 queries to reduce request time</li>
+</ul>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                    <span class="label label-primary">Redis</span>
+                  
+                    <span class="label label-primary">Sidekiq</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">Bootstrap</span>
+                  
+                    <span class="label label-warning">HTML5 CSS3</span>
+                  
+                    <span class="label label-warning">SASS</span>
+                  
+                    <span class="label label-warning">Slim Templates</span>
+                  
+                    <span class="label label-warning">Liquid Templates</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD</span>
+                  
+                    <span class="label label-success">RSpec</span>
+                  
+                    <span class="label label-success">FactoryBot</span>
+                  
+                    <span class="label label-success">CircleCI</span>
+                  
+                
+                  <dt>Third Party Application</dt>
+                  
+                    <span class="label label-danger">Mandrill/Mailchimp</span>
+                  
+                    <span class="label label-danger">Geocoder</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Deis/Workflow</span>
+                  
+                    <span class="label label-info">New Relic</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
         
-        <h2 class="page-break"></h2>
+          
+          <h4>TripAdvisor Integration App</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>This application helps any property manager of BookingSync to push to TripAdvisor platform all the availabilities of their rentals and the estimated price per day.
+However, the final price paid by the traveler was sometimes different than the direct price computed by BookingSync because of delays between refreshes of rental prices and discounts related to the length of stay.</p>
+
+<p>I worked closely with the TripAdvisor technical team to implement an API endpoint based on their specifications. This endpoint was later used by TripAdvisor to display on their website the live rate for a rental according to the length of stay and the number of guests. The estimated number of requests during a peak day was 7,500 and so far, this endpoint has respected the SLA defined by TripAdvisor:</p>
+<ul>
+  <li>maintain less than 500ms of median response time</li>
+  <li>maintain less than 1.5s of response time for 90% of requests</li>
+  <li>return a successful response for at least 99.9% of unique requests</li>
+</ul>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                    <span class="label label-primary">Redis</span>
+                  
+                    <span class="label label-primary">Sidekiq</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD</span>
+                  
+                    <span class="label label-success">RSpec</span>
+                  
+                    <span class="label label-success">FactoryBot</span>
+                  
+                    <span class="label label-success">CircleCI</span>
+                  
+                
+                  <dt>Third Party Application</dt>
+                  
+                    <span class="label label-danger">TripAdvisor Private API</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Deis/Workflow</span>
+                  
+                    <span class="label label-info">New Relic</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
       
-
         
-          <h3>
-  BookingSync - Senior Developer / Team Leader </br>
-  <small>Hong Kong - Jun 2017 to Sep 2019</small>
-</h3>
-
-<div class="row">
-  <div class="col-xs-2">
-    <img src="./img/bookingsync.png" alt="BookingSync Thumbnail" class="img-rounded img-responsive">
-  </div> <!-- col -->
-
-  <div class="col-xs-10">
-    <p>
-      BookingSync is a remote-based company with collaborators all around the world. It provides services to vacation rentals property managers through multiple in-house applications and external partner systems such as Airbnb, Booking.com and TripAdvisor. More than 20.000 rentals are managed in over 66 countries. More than 2.3 billion bookings were handled through Bookingsync.
-    </p>
-
-    <p>
-      As a Senior Developer, my role was to design more complex features and to oversee the work of other developers. I also had to keep applications under my scope up and running. Those applications had various business objectives:
-      <ul>
-        <li>Notification Center app that triggers emails sent to travelers</li>
-        <li>Owners portal app that facilitates communication between a property manager and the rental's owner</li>
-        <li>TripAdvisor Integration app to help property manager oversee which rentals to push TripAdvisor platform</li>
-        <li>Invoice app that generates invoices based on custom templates</li>
-        <li>Website Builder, that generates fully functional rental booking websites automatically plugged to BookingSync</li>
-      </ul>
-      The stack being similar among the applications, I initialized the standardization of their README to cover installation, setup, development process, testing, deployment, and monitoring.
-    </p>
-
-    <p>
-      As a Team Leader, my role was to facilitate the communication between with other teams and also to smoother the organization within the team (4 developers & 2 customer supports).
-    </p>
-
-    <p><a href="https://www.bookingsync.com">www.bookingsync.com</a></p>
-
-    <h4>
-      <span class="label label-primary line-h-2">Web Development</span>
-      <span class="label label-primary line-h-2">Web Administration</span>
-      <span class="label label-primary line-h-2">Vacation Rental</span>
-    </h4>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>TripAdvisor Integration App</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      This application helps any property manager of BookingSync to push to TripAdvisor platform all the availabilities of their rentals and the estimated price per day.
-      However, the final price paid by the traveler was sometimes different than the direct price computed by BookingSync because of delays between refreshes of rental prices and discounts related to the length of stay.
-    </p>
-
-    <p>
-      I worked closely with the TripAdvisor technical team to implement an API endpoint based on their specifications. This endpoint was later used by TripAdvisor to display on their website the live rate for a rental according to the length of stay and the number of guests. The estimated number of requests during a peak day was 7,500 and so far, this endpoint has respected the SLA defined by TripAdvisor:
-      <ul>
-        <li>maintain less than 500ms of median response time</li>
-        <li>maintain less than 1.5s of response time for 90% of requests</li>
-        <li>return a successful response for at least 99.9% of unique requests</li>
-      </ul>
-    </p>
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-
-    <dl>
-      <dt>Back-end</dt>
-      <span class="label label-primary">Ruby-on-Rails</span>
-      <span class="label label-primary">Postgresql</span>
-      <span class="label label-primary">Redis</span>
-      <span class="label label-primary">Sidekiq</span>
-
-      <dt>Testing</dt>
-      <span class="label label-success">TDD</span>
-      <span class="label label-success">RSpec</span>
-      <span class="label label-success">FactoryBot</span>
-      <span class="label label-success">CircleCI</span>
-
-      <dt>Third Party Application</dt>
-      <span class="label label-danger">TripAdvisor Private API</span>
-
-      <dt>Admin Tools</dt>
-      <span class="label label-info">Deis/Workflow</span>
-      <span class="label label-info">New Relic</span>
-      <span class="label label-info">Sentry</span>
-
-      <dt>Development Tools</dt>
-      <span class="label label-default">Jira</span>
-      <span class="label label-default">Git</span>
-      <span class="label label-default">Github</span>
-      <span class="label label-default">Sublime</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>BookingSync Notification Center App</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      The Notification app is critical in the vacation rental process as it handles all the emailing of check-in and check-out details, contracts, payment reminders and other information to the travelers. It relies heavily on background jobs and real-time constraints. Being the application I worked the most on, it was released 2 years before I started working on it. I covered all parts of the app, including:
-      <ul>
-        <li>Improve UX by reducing risks of typos (especially for email address errors)</li>
-        <li>Prevent emails from being sent twice by refactoring SQL queries</li>
-        <li>Implement soft-deletion feature for all DB records for data recovery and audit</li>
-        <li>Setup healthcheck that triggers alerts when delay sending notifications is too high</li>
-        <li>Implement a "retry later" feature when Mandrill's servers are down</li>
-        <li>Fix all warnings and stylecheck offenses</li>
-        <li>Add pagination to index pages and remove n+1 queries to reduce request time</li>
-      </ul>
-    </p>
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-    <dl>
-      <dt>Back-end</dt>
-      <span class="label label-primary">Ruby-on-Rails</span>
-      <span class="label label-primary">Postgresql</span>
-      <span class="label label-primary">Redis</span>
-      <span class="label label-primary">Sidekiq</span>
-
-      <dt>Front-end</dt>
-      <span class="label label-warning">Bootstrap</span>
-      <span class="label label-warning">HTML5 CSS3</span>
-      <span class="label label-warning">SASS</span>
-      <span class="label label-warning">Slim Templates</span>
-      <span class="label label-warning">Liquid Templates</span>
-
-      <dt>Testing</dt>
-      <span class="label label-success">TDD</span>
-      <span class="label label-success">RSpec</span>
-      <span class="label label-success">FactoryBot</span>
-      <span class="label label-success">CircleCI</span>
-
-      <dt>Third Party Application</dt>
-      <span class="label label-danger">Mandrill/Mailchimp</span>
-      <span class="label label-danger">Geocoder</span>
-
-      <dt>Admin Tools</dt>
-      <span class="label label-info">Deis/Workflow</span>
-      <span class="label label-info">New Relic</span>
-      <span class="label label-info">Sentry</span>
-
-      <dt>Development Tools</dt>
-      <span class="label label-default">Jira</span>
-      <span class="label label-default">Git</span>
-      <span class="label label-default">Github</span>
-      <span class="label label-default">Sublime</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
+          <span class="page-break"></span>
         
-        <h2 class="page-break"></h2>
+        
+        <h3>
+          <u>HelperChoice - Tech Lead</u> </br>
+          <small>Hong Kong - Jul 2015 to May 2017</small>
+        </h3>
+
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/helperchoice.png" alt="Helperchoice Thumbnail" class="img-rounded img-responsive">
+          </div>
+
+          <div class="col-xs-10">
+            <p>Rebuilt and enhanced the leading social platform in Hong Kong that connects families and domestic helpers.
+Being the second person to join this social startup, my role was to analyze the business needs, provide solutions adjusted to the users’ constraints.
+In addition, I had the responsibility to keep the website up and scalable by delivering clean, maintainable and tested codebase.</p>
+
+<p>The website attracts more than 8000 users per day. The startup itself was rewarded in Hong Kong for its social impact and was the only Asian finalist in a purposed-based contest supported by the UN Foundation.</p>
+
+<p><a href="http://www.helperchoice.com">www.helperchoice.com</a></p>
+
+            <h4>
+              
+                <span class="label label-primary line-h-2">Web Development</span>
+              
+                <span class="label label-primary line-h-2">Web Administration</span>
+              
+                <span class="label label-primary line-h-2">Startup</span>
+              
+                <span class="label label-primary line-h-2">Social Enterprise</span>
+              
+            </h4>
+          </div>
+        </div>
+
+        <hr/>
+        
+        
+          
+          <h4>HelperChoice Platform</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>Redesigned the whole application architecture, developed the new platform, managed the transition from the previous website, secured the payment workflow and integrated new business features. Business needs are specified directly by the CEO and then designed and implemented by me. The development cycle is agile following a TDD process, each feature is tested and developed piece by piece and deployed as soon as possible in production.</p>
+
+<p>The website users are present in 10 countries and a large part is using the previous generation smartphones. To handle these constraints, we built the website by using responsive design techniques available on modern and legacy browsers. The core of the architecture is a Ruby-on-Rails application (MVC, REST) associated with the “best for the job” tools.</p>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby-on-Rails</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                    <span class="label label-primary">Redis</span>
+                  
+                    <span class="label label-primary">Devise</span>
+                  
+                    <span class="label label-primary">ActiveAdmin</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">Bootstrap</span>
+                  
+                    <span class="label label-warning">HTML5 CSS3</span>
+                  
+                    <span class="label label-warning">SASS</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD</span>
+                  
+                    <span class="label label-success">RSpec</span>
+                  
+                    <span class="label label-success">FactoryGirl</span>
+                  
+                    <span class="label label-success">Capybara</span>
+                  
+                    <span class="label label-success">Guard</span>
+                  
+                
+                  <dt>Third Party Applications</dt>
+                  
+                    <span class="label label-danger">Paypal</span>
+                  
+                    <span class="label label-danger">Stripe</span>
+                  
+                    <span class="label label-danger">Mandrill/Mailchimp</span>
+                  
+                    <span class="label label-danger">Facebook</span>
+                  
+                
+                  <dt>Admin Tools</dt>
+                  
+                    <span class="label label-info">Engine Yard</span>
+                  
+                    <span class="label label-info">New Relic</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                    <span class="label label-info">Google Analytics</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
       
-
         
-          <h3>
-  HelperChoice - Tech Lead  </br>
-  <small>Hong Kong - Jul 2015 to May 2017</small>
-</h3>
-
-<div class="row">
-  <div class="col-xs-2">
-    <img src="./img/helperchoice.png" alt="HelperChoice Thumbnail" class="img-rounded img-responsive">
-  </div> <!-- col -->
-
-  <div class="col-xs-10">
-    <p>
-      Rebuilt and enhanced the leading social platform in Hong Kong that connects families and domestic helpers.
-      Being the second person to join this social startup, my role was to analyze the business needs, provide solutions adjusted to the users' constraints.
-      In addition, I had the responsibility to keep the website up and scalable by delivering clean, maintainable and tested codebase.
-    </p>
-
-    <p>
-      The website attracts more than 8000 users per day. The startup itself was rewarded in Hong Kong for its social impact and was the only Asian finalist in a purposed-based contest supported by the UN Foundation.
-    </p>
-
-    <p><a href="https://www.helperchoice.com">www.helperchoice.com</a></p>
-
-    <h4>
-      <span class="label label-primary line-h-2">Web Development</span>
-      <span class="label label-primary line-h-2">Web Administration</span>
-      <span class="label label-primary line-h-2">Startup</span>
-      <span class="label label-primary line-h-2">Social Enterprise</span>
-    </h4>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>HelperChoice Platform</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      Redesigned the whole application architecture, developed the new platform, managed the transition from the previous website, secured the payment workflow and integrated new business features. Business needs are specified directly by the CEO and then designed and implemented by me. The development cycle is agile following a TDD process, each feature is tested and developed piece by piece and deployed as soon as possible in production.
-    </p>
-
-    <p>
-      The website users are present in 10 countries and a large part is using the previous generation smartphones. To handle these constraints, we built the website by using responsive design techniques available on modern and legacy browsers. The core of the architecture is a Ruby-on-Rails application (MVC, REST) associated with the "best for the job" tools.
-    </p>
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-
-    <dl>
-      <dt>Back-end</dt>
-      <span class="label label-primary">Ruby-on-Rails</span>
-      <span class="label label-primary">Postgresql</span>
-      <span class="label label-primary">Redis</span>
-      <span class="label label-primary">Devise</span>
-      <span class="label label-primary">ActiveAdmin</span>
-
-      <dt>Front-end</dt>
-      <span class="label label-warning">Bootstrap</span>
-      <span class="label label-warning">HTML5 CSS3</span>
-      <span class="label label-warning">SASS</span>
-
-      <dt>Testing</dt>
-      <span class="label label-success">TDD</span>
-      <span class="label label-success">RSpec</span>
-      <span class="label label-success">FactoryGirl</span>
-      <span class="label label-success">Capybara</span>
-      <span class="label label-success">Guard</span>
-
-      <dt>Third Party Application</dt>
-      <span class="label label-danger">Paypal</span>
-      <span class="label label-danger">Stripe</span>
-      <span class="label label-danger">Mandrill/Mailchimp</span>
-      <span class="label label-danger">Facebook</span>
-
-      <dt>Admin Tools</dt>
-      <span class="label label-info">Engine Yard</span>
-      <span class="label label-info">New Relic</span>
-      <span class="label label-info">Sentry</span>
-      <span class="label label-info">Google Analytics</span>
-
-      <dt>Development Tools</dt>
-      <span class="label label-default">Jira</span>
-      <span class="label label-default">Git</span>
-      <span class="label label-default">Github</span>
-      <span class="label label-default">Sublime</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
         
-        <h2 class="page-break"></h2>
+        <h3>
+          <u>DoctHeure - Founder</u> </br>
+          <small>Paris - Jan 2013 to Jul 2015</small>
+        </h3>
+
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/doctheure.png" alt="Doctheure Thumbnail" class="img-rounded img-responsive">
+          </div>
+
+          <div class="col-xs-10">
+            <p>Founded and managed a solo startup of web solutions for medical practitioners. Created a web application based on customer’s needs. Along with the technical parts, I worked on business development, costs estimation, sales forecasting, and sales.</p>
+
+<p><a href="http://www.doctheure.com">www.doctheure.com</a></p>
+
+            <h4>
+              
+                <span class="label label-primary line-h-2">Web Development</span>
+              
+                <span class="label label-primary line-h-2">Web Administration</span>
+              
+                <span class="label label-primary line-h-2">Healthcare</span>
+              
+                <span class="label label-primary line-h-2">Entrepreneurship</span>
+              
+                <span class="label label-primary line-h-2">Customer's Relationship</span>
+              
+            </h4>
+          </div>
+        </div>
+
+        <hr/>
+        
+        
+          
+            <span class="page-break"></span>
+          
+          <h4>DoctHeure Web Application</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>DoctHeure is a web application that allows medical practitioners to easily automate the secretary’s tasks. The patient can take an appointment on the web application or by phone call. An email and/or an SMS is sent the day before the appointment. The features can be configured by the practitioner to fit his needs.</p>
+
+<p>The application has been developed by myself and the open-source community through a rigorous development method. The kanban process was used to list and prioritize tasks and keep a trace of the deployment cycle (test, development, staging, production). The TDD process was used to keep the application clean and to avoid any regressions.</p>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Ruby</span>
+                  
+                    <span class="label label-primary">Postgresql</span>
+                  
+                    <span class="label label-primary">Devise</span>
+                  
+                    <span class="label label-primary">ActiveAdmin</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">Bootstrap</span>
+                  
+                    <span class="label label-warning">HTML5 CSS3</span>
+                  
+                    <span class="label label-warning">SASS</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">TDD</span>
+                  
+                    <span class="label label-success">RSpec</span>
+                  
+                    <span class="label label-success">FactoryGirl</span>
+                  
+                    <span class="label label-success">Capybara</span>
+                  
+                    <span class="label label-success">Guard</span>
+                  
+                
+                  <dt>Third Party Application</dt>
+                  
+                    <span class="label label-danger">Twilio</span>
+                  
+                    <span class="label label-danger">SMSFactor</span>
+                  
+                    <span class="label label-danger">Mandrill</span>
+                  
+                    <span class="label label-danger">Geocoder</span>
+                  
+                
+                  <dt>Ops Tools</dt>
+                  
+                    <span class="label label-info">Heroku</span>
+                  
+                    <span class="label label-info">Sentry</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Trello</span>
+                  
+                    <span class="label label-default">Git</span>
+                  
+                    <span class="label label-default">Github</span>
+                  
+                    <span class="label label-default">Sublime</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
       
-
         
-          <h3>
-  DoctHeure - Founder  </br>
-  <small>Paris - Jan 2013 to Jul 2015</small>
-</h3>
-
-<div class="row">
-  <div class="col-xs-2">
-    <img src="./img/doctheure.jpg" alt="DoctHeure Thumbnail" class="img-rounded img-responsive">
-  </div> <!-- col -->
-
-  <div class="col-xs-10">
-    <p>
-      Founded and managed a solo startup of web solutions for medical practitioners. Created a web application based on customer's needs. Along with the technical parts, I worked on business development, costs estimation, sales forecasting, and sales.
-    </p>
-
-    <p><a href="https://www.doctheure.com">www.doctheure.com</a></p>
-
-    <h4>
-      <span class="label label-primary line-h-2">Web Development</span>
-      <span class="label label-primary line-h-2">Web Administration</span>
-      <span class="label label-primary line-h-2">Healthcare</span>
-      <span class="label label-primary line-h-2">Entrepreneurship</span>
-      <span class="label label-primary line-h-2">Customer's Relationship</span>
-    </h4>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>DoctHeure Web Application</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      DoctHeure is a web application that allows medical practitioners to easily automate the secretary's tasks. The patient can take an appointment on the web application or by phone call. An email and/or an SMS is sent the day before the appointment. The features can be configured by the practitioner to fit his needs.
-    </p>
-
-    <p>
-      The application has been developed by myself and the open-source community through a rigorous development method. The kanban process was used to list and prioritize tasks and keep a trace of the deployment cycle (test, development, staging, production). The TDD process was used to keep the application clean and to avoid any regressions.
-    </p>
-
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-
-    <dl>
-      <dt>Back-end</dt>
-      <span class="label label-primary">Ruby-on-Rails</span>
-      <span class="label label-primary">Postgresql</span>
-      <span class="label label-primary">Devise</span>
-      <span class="label label-primary">ActiveAdmin</span>
-
-      <dt>Front-end</dt>
-      <span class="label label-warning">Bootstrap</span>
-      <span class="label label-warning">HTML5 CSS3</span>
-      <span class="label label-warning">SASS</span>
-
-      <dt>Testing</dt>
-      <span class="label label-success">TDD</span>
-      <span class="label label-success">RSpec</span>
-      <span class="label label-success">FactoryGirl</span>
-      <span class="label label-success">Capybara</span>
-      <span class="label label-success">Guard</span>
-
-      <dt>Third Party Application</dt>
-      <span class="label label-danger">Twilio</span>
-      <span class="label label-danger">SMSFactor</span>
-      <span class="label label-danger">Mandrill</span>
-      <span class="label label-danger">Geocoder</span>
-
-      <dt>Admin Tools</dt>
-      <span class="label label-info">Heroku</span>
-      <span class="label label-info">Sentry</span>
-
-      <dt>Development Tools</dt>
-      <span class="label label-default">Trello</span>
-      <span class="label label-default">Git</span>
-      <span class="label label-default">Github</span>
-      <span class="label label-default">Sublime</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
         
-        <h2 class="page-break"></h2>
+        <h3>
+          <u>Lipton Fit - Software Engineer Consultant</u> </br>
+          <small>Paris - Mar 2011 to Jan 2013</small>
+        </h3>
+
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="./img/liptonfit.png" alt="Liptonfit Thumbnail" class="img-rounded img-responsive">
+          </div>
+
+          <div class="col-xs-10">
+            <p>In mission at Caceis Fund Administration as Software Engineer, as Lead Developer of the Financial Reporting Team (3 developers), I was in charge of the enhancement of new features of the business core software as IFRS7 risk calculation or third-party software StatPro integration. I designed financial reporting templates and populated them with stored procedures that fetched data in a data warehouse.</p>
+
+            <h4>
+              
+                <span class="label label-primary line-h-2">Software Development</span>
+              
+                <span class="label label-primary line-h-2">Team development</span>
+              
+                <span class="label label-primary line-h-2">Banking Services</span>
+              
+                <span class="label label-primary line-h-2">Middleware Architecture</span>
+              
+            </h4>
+          </div>
+        </div>
+
+        <hr/>
+        
+        
+          
+          <h4>Financial Reporting Generation</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>A financial reporting is 2 pages of technical information about a financial portfolio. The project was to automate monthly reporting of specific portfolios with informations saved in a datawarehouse. I used the software Actuate to design the reporting template and populated it trough stocked procedure.</p>
+
+<p>Actuate design module is built on Visual Basic language. It allowed me to create DRY design component for templates (such as headers, footers, curves, tables).</p>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Database</dt>
+                  
+                    <span class="label label-primary">Datawarehouse Model</span>
+                  
+                    <span class="label label-primary">Sybase</span>
+                  
+                    <span class="label label-primary">Transact SQL</span>
+                  
+                
+                  <dt>Design Tool</dt>
+                  
+                    <span class="label label-warning">Actuate</span>
+                  
+                    <span class="label label-warning">Visual Basic</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
+          
+            <span class="page-break"></span>
+          
+          <h4>IFRS7 Risk Calculation</h4>
+          <div class="row">
+            <div class="col-xs-8">
+              <h5>Description</h5>
+              <p>The IFRS7 notation is a value from 1(good) to 3(bad) that estimates the risk level of each asset of a financial portfolio (hedge fund). The value is weight by rules like for example the nationality of the fund or the type of asset. Each fund holder can choose the rules they want to apply.</p>
+
+<p>The existing business core software had a Service Oriented Architecture so the feature was implemented as a web service and “plug” in the existing system. The service was triggered by a UI through an API. The UI also allowed the user to create and to weight rules to a portfolio. A specific algorithm was designed to reduce databases I/O and avoid unnecessary operations.</p>
+
+            </div>
+
+            <div class="col-xs-4">
+              <h5>Stack</h5>
+
+              <dl>
+                
+                  <dt>Back-end</dt>
+                  
+                    <span class="label label-primary">Java</span>
+                  
+                    <span class="label label-primary">Sybase</span>
+                  
+                    <span class="label label-primary">Struts</span>
+                  
+                    <span class="label label-primary">Hibernate</span>
+                  
+                
+                  <dt>Front-end</dt>
+                  
+                    <span class="label label-warning">JSP</span>
+                  
+                
+                  <dt>Testing</dt>
+                  
+                    <span class="label label-success">JUnit</span>
+                  
+                
+                  <dt>Development Tools</dt>
+                  
+                    <span class="label label-default">Jira</span>
+                  
+                    <span class="label label-default">SVN</span>
+                  
+                    <span class="label label-default">Eclipse</span>
+                  
+                
+              <dl>
+            </div>
+          </div>
+          <hr/>
+        
       
-
-        
-          <h3>
-  Lipton Fit - Software Engineer Consultant  </br>
-  <small>Paris - Mar 2011 to Jan 2013</small>
-</h3>
-
-<div class="row">
-  <div class="col-xs-2">
-    <img src="./img/liptonfit.jpg" alt="Lipton Fit Thumbnail" class="img-rounded img-responsive">
-  </div> <!-- col -->
-
-  <div class="col-xs-10">
-    <p>
-      In mission at Caceis Fund Administration as Software Engineer, as Lead Developer of the Financial Reporting Team (3 developers), I was in charge of the enhancement of new features of the business core software as IFRS7 risk calculation or third-party software StatPro integration. I designed financial reporting templates and populated them with stored procedures that fetched data in a data warehouse.
-    </p>
-
-    <h4>
-      <span class="label label-primary line-h-2">Software Development</span>
-      <span class="label label-primary line-h-2">Team development</span>
-      <span class="label label-primary line-h-2">Banking Services</span>
-      <span class="label label-primary line-h-2">Middleware Architecture</span>
-    </h4>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>IFRS7 Risk Calculation</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      The IFRS7 notation is a value from 1(good) to 3(bad) that estimates the risk level of each asset of a financial portfolio (hedge fund). The value is weight by rules like for example the nationality of the fund or the type of asset. Each fund holder can choose the rules they want to apply.
-    </p>
-
-    <p>
-      The existing business core software had a Service Oriented Architecture so the feature was implemented as a web service and "plug" in the existing system. The service was triggered by a UI through an API. The UI also allowed the user to create and to weight rules to a portfolio. A specific algorithm was designed to reduce databases I/O and avoid unnecessary operations.
-    </p>
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-
-    <dl>
-      <dt>Back-end</dt>
-      <span class="label label-primary">Java J2EE</span>
-      <span class="label label-primary">Sybase</span>
-      <span class="label label-primary">Struts</span>
-      <span class="label label-primary">Hibernate</span>
-
-      <dt>Front-end</dt>
-      <span class="label label-warning">JSP</span>
-
-      <dt>Testing</dt>
-      <span class="label label-success">JUnit</span>
-
-      <dt>Development Tools</dt>
-      <span class="label label-default">Jirah</span>
-      <span class="label label-default">SVN</span>
-      <span class="label label-default">Eclipse</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-<hr/>
-
-<h4>Financial Reporting Generation</h4>
-
-<div class="row">
-  <div class="col-xs-8">
-    <h5>Description</h5>
-    <p>
-      A financial reporting is 2 pages of technical information about a financial portfolio. The project was to automate monthly reporting of specific portfolios with informations saved in a datawarehouse. I used the software Actuate to design the reporting template and populated it trough stocked procedure.
-    </p>
-
-    <p>
-      Actuate design module is built on Visual Basic language. It allowed me to create DRY design component for templates (such as headers, footers, curves, tables).
-    </p>
-  </div> <!-- col -->
-
-  <div class="col-xs-4">
-    <h5>Stack</h5>
-
-    <dl>
-      <dt>Database</dt>
-      <span class="label label-primary">Datawarehouse Model</span>
-      <span class="label label-primary">Sybase</span>
-      <span class="label label-primary">Transact SQL</span>
-
-      <dt>Design Tool</dt>
-      <span class="label label-warning">Actuate</span>
-      <span class="label label-warning">Visual Basic</span>
-    </dl>
-  </div> <!-- col -->
-</div> <!-- row -->
-
-        
-        <h2 class="page-break"></h2>
-      
-
     </div>
   </div>
 
   <div class="row">
-    <h2>Education</h2>
+    <h2 class="header">Education</h2>
 
     <div class="row">
       <div class="col-xs-2">
@@ -949,10 +1084,8 @@
           <dt>English</dt>
           <dd>Proficient</dd>
         </dl>
-
       </div>
     </div>
-
   </div>
 </div>
 
