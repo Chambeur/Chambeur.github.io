@@ -2,5 +2,10 @@ destination: ./docs
 collections:
   - experiences
   - projects
-exclude: ["README.md"]
+exclude:
+  - README.md
+  - Procfile.dev
+  - bin/
+  - tailwind.config.js
+  - css/input.css
 url: https://marc-chamberlin.com

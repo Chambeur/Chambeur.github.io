@@ -1,0 +1,2 @@
+web: bundle exec jekyll s
+css: ./bin/tailwindcss -i css/input.css -o css/output.css --watch
