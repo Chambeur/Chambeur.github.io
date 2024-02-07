@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.print-color-exact {
+  print-color-adjust: exact;
+}
+
+.section-header {
+  @apply text-2xl font-extrabold bg-slate-100 px-4 py-2 rounded-xl mb-4 print-color-exact;
+}
