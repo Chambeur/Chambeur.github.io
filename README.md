@@ -2,12 +2,12 @@
   marc-chamberlin.com
 
 # Last Update
-  October 2023
+  January 2024
 
 # Usage
 ```sh
 # Run website locally
-bundle exec jekyll s
+./bin/dev
 
 # Build website
 bundle exec jekyll b

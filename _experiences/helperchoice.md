@@ -1,6 +1,7 @@
 ---
 date: 2015-07-01
-role: HelperChoice - Tech Lead
+company: HelperChoice
+role: Tech Lead
 context: Hong Kong - Jul 2015 to May 2017
 link: www.helperchoice.com
 page_break: true
@@ -9,6 +10,26 @@ tags:
   - Web Administration
   - Startup
   - Social Enterprise
+liners:
+  - Second employee and first developer of the startup
+  - Rebuilt and enhanced the leading social platform in Hong Kong that connects families and domestic helpers
+  - Provided solutions adjusted to the users' constraints (low-end smartphones, slow internet connection)
+  - Startup rewarded in Hong Kong for its social impact and was the only Asian finalist in a purposed-based contest supported by the UN Foundation
+stack:
+  - Ruby-on-Rails
+  - Postgres
+  - Redis
+  - Sidekiq
+  - Bootstrap
+  - RSpec
+  - Capybara
+  - Stripe
+  - Paypal
+  - Mandrill
+  - Engine Yard
+  - New Relic
+  - Jira
+  - Github
 ---
 Rebuilt and enhanced the leading social platform in Hong Kong that connects families and domestic helpers.
 Being the second person to join this social startup, my role was to analyze the business needs, provide solutions adjusted to the users' constraints.

@@ -1,6 +1,7 @@
 ---
 date: 2022-01-01
-role: Kactus - Tech Team Lead, Engineering Manager
+company: Kactus
+role: Tech Team Lead, Engineering Manager
 context: Remote - from Jan 2022 to present
 link: www.kactus.com
 tags:
@@ -8,6 +9,35 @@ tags:
   - People Management
   - Product Oriented Development
   - MICE
+liners:
+  - "As Engineering Manager:"
+  - Led the team in shortening the development life cycle and achieving continuous delivery
+  - Actively participated in the recruitment process, conducting technical interviews
+  - Standardized and automated components of the CI/CD pipeline
+  - Implemented application monitoring tools
+  - Integrated the Bird Office team after the merger, conducting code reviews, engaging in technical discussions, and participating in pair programming sessions
+  - "As Tech Team Lead:"
+  - Collaborated closely with Product Owners to provide the technical vision for our applications
+  - Proposed alternative technical solutions and take responsibility for project architecture and technical choices
+  - Managed a team of 1-2 developers and conduct regular 1-on-1 meetings
+stack:
+  - Ruby-on-Rails
+  - Postgres
+  - Redis
+  - Sidekiq
+  - Turbo
+  - Stimulus
+  - Bootstrap
+  - ViewComponent
+  - RSpec
+  - Capybara
+  - Algolia
+  - Salesforce
+  - Heroku
+  - GitHub Actions
+  - New Relic
+  - Sentry
+  - Notion
 ---
 Kactus is a marketplace for MICE (Meetings, Incentives, Conferences, and Exhibitions) venues. It is a B2B SaaS platform that connects event planners with venues. The platform enables event planners to search, compare, and book venues for their events, while also allowing venues to manage and receive bookings.
 
