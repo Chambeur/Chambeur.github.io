@@ -1,0 +1,20 @@
+---
+layout: app
+title: Blog | Marc Chamberlin
+---
+<main class="container mx-auto max-w-3xl p-10">
+  <ul>
+    {% for article in site.articles %}
+      <li>
+        <a href="{{ article.url }}" class="flex gap-4">
+          <img src="/img/blog/{{ article.slug }}.webp" alt="article illustration" class="rounded-lg h-24">
+
+          <div>
+            <div class="font-bold text-xl">{{ article.title }}</div>
+            <div class="text-gray-500">{{ article.date | date_to_string }}</div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</main>

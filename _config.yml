@@ -1,7 +1,13 @@
 destination: ./docs
 collections:
-  - experiences
-  - projects
+  articles:
+    output: true
+    permalink: /blog/:title
+    layout: article
+  experiences:
+    output: false
+  projects:
+    output: false
 exclude:
   - README.md
   - Procfile.dev

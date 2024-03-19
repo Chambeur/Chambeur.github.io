@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Marc Chamberlin</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:title" content="{{ page.title }} | Marc Chamberlin">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="/img/blog/{{ page.slug }}.webp">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:type" content="article">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/css/output.css">
+  </head>
+  <body>
+    <main class="container mx-auto max-w-3xl p-10">
+      <!-- <a href="/blog" class="btn"><< Back</a> -->
+
+      <div class="prose mt-4">
+        <img src="/img/blog/{{ page.slug }}.webp" alt="article illustration" class="rounded-lg h-72 w-full object-cover">
+        <h1>{{ page.title }}</h1>
+
+        <div class="flex items-center gap-4 h-20">
+          <img src="/img/pic.png" alt="Marc Chamberlin" class="rounded-full h-16">
+          <div>
+            <a href="/printable" class="font-bold">Marc Chamberlin</a>
+            <div class="flex flex-col text-sm text-gray-500 italic pl-1">
+              <span>{{ page.date | date_to_string }}</span>
+              <span>{{ page.read_time }} min</span>
+            </div>
+          </div>
+        </div>
+
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>
